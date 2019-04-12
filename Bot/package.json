@@ -1,0 +1,14 @@
+{
+  "name": "botrappa-reborn",
+  "version": "0.1alpha",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gamerappa and Memes",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  }
+}
