@@ -32,16 +32,3 @@ bot.on("message", message => {
 });
 
 bot.login('NTUyOTExNjQ4ODE4NzI0OTAz.XLOaEg.ZYbv-wQaSpUWQV-xYIETuVQVK3k')
-
-//memes how the fuck do i launch BOTRAPPA
-//open cmd on ur computer THERE'S NO FUCKING TOKEN
-//open it and do to ur directory
-//paste it on the file and on the terminal do "node [file]" 
-// UNEXPECTED TOKEN
-// THAT IS THE TOKEN YOU GAVE ME
-// IT'S THE CORRECT ONE
-// YOU FUCKING DID SOMETHING
-// please do not node the json ones
-// its node bot.js
-//// reee
-//hey good! you learned how to do it! NOPE LOL
