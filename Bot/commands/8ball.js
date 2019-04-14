@@ -6,7 +6,7 @@ exports.run = function(bot, message){
     .setTitle('🎱 Your answer is: ' + doMagic8BallVoodoo()));
 
     function doMagic8BallVoodoo() {
-        var rand = ['Yes', 'No', 'It is certain.', 'What do you think? NO', 'Maybe', 'Never', 'Yep', 'In the future.', 'Well. I cant think right now', 'NAH BRUH'];
+        var rand = ['Yes', 'No', 'It is certain.', 'What do you think? NO', 'Maybe', 'Never', 'Yep', 'In the future.', 'Well. I cant think right now', 'NAH BRUH', 'No U'];
 
         return rand[Math.floor(Math.random()*rand.length)];
     }
