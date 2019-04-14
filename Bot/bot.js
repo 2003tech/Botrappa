@@ -33,4 +33,4 @@ bot.on("message", message => {
 
 bot.login('lol no 2: to avoid eletronic boogaldroo raids')
 
-// Skultz.#0045 i know what bullshit you are doing. you're going to try to raid a server with this?
+// Skultz.#0045 i know what bullshit you are doing. you're going to try to raid a server with this? with your tech indian malware bullshit. you should have been banned from discord, long by now. 
