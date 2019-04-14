@@ -1,6 +1,15 @@
 const Discord = require('discord.js')
+const talkedRecently = new Set();
 
 exports.run = function(bot, message, config) {
+    if (talkedRecently.has(msg.author.id)) {
+        msg.channel.send("Wait 1 minute before getting typing this again. - " + msg.author);
+    } else {
+        talkedRecently.add(msg.author.id);
+        setTimeout(() => {
+            talkedRecently.delete(msg.author.id);
+        }, 5000);
+    }
     const embed = new Discord.RichEmbed()
     .setTitle("Gumball in diapers!")
     .setImage(ohFuckMyEyes())
@@ -14,4 +23,4 @@ function ohFuckMyEyes(){
     return rand[Math.floor(Math.random()*rand.length)];
 }
 
-//DO NOT ABUSE THE COMMAND -gamerappa
+// meh this command is incomplete
