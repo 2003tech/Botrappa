@@ -13,7 +13,3 @@ function ohFuckMyEyes(){
     var rand = ["https://bit.ly/2X6I7RW", "https://bit.ly/2Dd6l5N", "http://bit.ly/2VJfHND", "https://bit.ly/2VFT10O"]
     return rand[Math.floor(Math.random()*rand.length)];
 }
-
-//does that shit work? the terminal stuff?
-//quick note i don't even putted the token rn o put that in quickly and i can test 
-// brb

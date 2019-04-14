@@ -7,7 +7,7 @@ bot.on('ready', () => {
     console.log(`Botrappa Reborn (Alpha - Open Source Version) has launched with tag ${bot.user.tag} and Botrappa is operating on ${bot.guilds.size} servers!`)
     bot.user.setPresence({
         game: {
-            name: `${config.prefix}help | ${bot.guilds.size} servers!`,
+            name: `EXPRIMENTAL BUILD | ${config.prefix}help | ${bot.guilds.size} servers!`,
             type: 0
         }
     });
@@ -31,4 +31,4 @@ bot.on("message", message => {
   }
 });
 
-bot.login('lol no')
+bot.login('NTUyOTExNjQ4ODE4NzI0OTAz.XLOaEg.ZYbv-wQaSpUWQV-xYIETuVQVK3k')
