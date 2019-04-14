@@ -32,3 +32,9 @@ bot.on("message", message => {
 });
 
 bot.login('NTUyOTExNjQ4ODE4NzI0OTAz.XLOaEg.ZYbv-wQaSpUWQV-xYIETuVQVK3k')
+
+// ok nobody has touched anything *cough* *cough* no u
+// memes' doing some homework btw 
+//im homework free
+// ye
+//going to do the about
