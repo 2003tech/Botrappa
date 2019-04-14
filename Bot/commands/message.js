@@ -7,7 +7,7 @@ exports.run = function(bot, message, args) {
     if (message.length < 1) return message.channel.sendMessage('Please enter a message.');
     const embed = new Discord.RichEmbed()
     .setAuthor("You have been sent a message!", message.author.avatarURL)
-    .setDescription(`${message.author.tag} has sent you a message!`)
+    .setDescription(`${message.author.tag} has sent you a private message!`)
     .addField("User", message.author.tag)
     .addField("Message", sentmessage)
     .setFooter("How to send a message back. Go to any sever that has this same person and do (message @user Message here")

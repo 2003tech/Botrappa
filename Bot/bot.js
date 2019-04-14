@@ -31,10 +31,6 @@ bot.on("message", message => {
   }
 });
 
-bot.login('NTUyOTExNjQ4ODE4NzI0OTAz.XLOaEg.ZYbv-wQaSpUWQV-xYIETuVQVK3k')
+bot.login('lol no 2: to avoid eletronic boogaldroo raids')
 
-// ok nobody has touched anything *cough* *cough* no u
-// memes' doing some homework btw 
-//im homework free
-// ye
-//going to do the about
+// Skultz.#0045 i know what bullshit you are doing. you're going to try to raid a server with this?

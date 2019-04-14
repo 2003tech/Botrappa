@@ -3,10 +3,10 @@ const Discord = require('discord.js')
 exports.run = function(bot, message) {
     const embed = new Discord.RichEmbed()
     .setAuthor("About Page", bot.user.avatarURL)
-    .addField("This bot was made by the team of", "Gamerappa, Memes and XPUser")
+    .addField("This bot was made by the team of", "Gamerappa (Parappafan98), Memes and XPUser")
+    .addField("qwerty", "uiop")
+    .addField("Special thanks to", "These guys up me")
     .setColor(message.guild.me.displayHexColor)
     message.channel.send({embed, embed})
 }
-//so what we do
-//OMG WTF
-//whats that
+//what do i add PF94 or most likely GAMERAPPA
