@@ -44,4 +44,4 @@ bot.login('NTUyOTExNjQ4ODE4NzI0OTAz.XLOaEg.ZYbv-wQaSpUWQV-xYIETuVQVK3k')
 // please do not node the json ones
 // its node bot.js
 //// reee
-//hey
+//hey good! you learned how to do it! NOPE LOL

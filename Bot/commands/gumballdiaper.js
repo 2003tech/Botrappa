@@ -2,13 +2,14 @@ const Discord = require('discord.js')
 const talkedRecently = new Set();
 
 exports.run = function(bot, message, config) {
-    if (talkedRecently.has(msg.author.id)) {
-        msg.channel.send("Wait 1 minute before getting typing this again. - " + msg.author);
+    if (talkedRecently.has(message.author.id)) {
+        message.channel.send("Wait 1 minute before getting typing this again. - " + message.author);
     } else {
-        talkedRecently.add(msg.author.id);
+        talkedRecently.add(message.author.id);
         setTimeout(() => {
-            talkedRecently.delete(msg.author.id);
-        }, 5000);
+            talkedRecently.delete(message.author.id);
+        }, 10000);
+        return
     }
     const embed = new Discord.RichEmbed()
     .setTitle("Gumball in diapers!")
@@ -23,4 +24,3 @@ function ohFuckMyEyes(){
     return rand[Math.floor(Math.random()*rand.length)];
 }
 
-// meh this command is incomplete
