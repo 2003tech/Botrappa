@@ -4,7 +4,7 @@ var config = require("./config.json")
 var blacklisted = require("./blacklisted.json").blacklisted
 
 bot.on('ready', () => {
-    console.log(`Botrappa Reborn (Alpha) has launched with tag ${bot.user.tag} and Botrappa is operating on ${bot.guilds.size} servers!`)
+    console.log(`Botrappa Reborn (Alpha - Github Version) has launched with tag ${bot.user.tag} and Botrappa is operating on ${bot.guilds.size} servers!`)
     bot.user.setPresence({
         game: {
             name: `${config.prefix}help | ${bot.guilds.size} servers!`,
