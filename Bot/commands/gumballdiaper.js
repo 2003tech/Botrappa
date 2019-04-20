@@ -24,3 +24,4 @@ function ohFuckMyEyes(){
     return rand[Math.floor(Math.random()*rand.length)];
 }
 
+// i don't think we'll work on that -gamerappa
